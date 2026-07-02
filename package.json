@@ -1,23 +1,27 @@
 {
-    "name":  "el-ayad-furniture-erp",
-    "private":  true,
-    "version":  "1.0.0",
-    "type":  "module",
-    "scripts":  {
-                    "dev":  "vite",
-                    "build":  "tsc -b \u0026\u0026 vite build",
-                    "preview":  "vite preview"
-                },
-    "dependencies":  {
-                         "@vitejs/plugin-react":  "latest",
-                         "lucide-react":  "latest",
-                         "react":  "latest",
-                         "react-dom":  "latest"
-                     },
-    "devDependencies":  {
-                            "@types/react":  "latest",
-                            "@types/react-dom":  "latest",
-                            "typescript":  "latest",
-                            "vite":  "latest"
-                        }
+    "name": "el-ayad-furniture-erp",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@hookform/resolvers": "file:work/packages/hookform-resolvers.tgz",
+        "@standard-schema/utils": "file:work/packages/standard-schema-utils.tgz",
+        "@vitejs/plugin-react": "latest",
+        "lucide-react": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-hook-form": "file:work/packages/react-hook-form.tgz",
+        "zod": "file:work/packages/zod.tgz"
+    },
+    "devDependencies": {
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "typescript": "latest",
+        "vite": "latest"
+    }
 }
